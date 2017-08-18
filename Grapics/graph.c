@@ -1,14 +1,16 @@
 #include<graphics.h>
 #include<stdio.h>
-#include<iostream>
-#include<conio.h>
+//#include<iostream>
+//#include<conio.h>
 
 int main()
 {
     FILE *fp = fopen("Line_points.txt", "a");
-    initwindow(800,800,"Line Generating Program");
-
-    int x0 = 112, y0 = 14, x1 = 456, y1 = 789;
+    
+    int gd = DETECT,gm ;
+    initgraph(&gd,&gm,NULL);
+   
+    int x0 = 50, y0 = 50, x1 = 525, y1 = 1000;
 
     int dx, dy, p, x, y;
 
@@ -37,6 +39,8 @@ int main()
         }
         x=x+1;
     }
-    getch();
+    //getch();
+    scanf("%d", &x);
     return 0;
 }
+
