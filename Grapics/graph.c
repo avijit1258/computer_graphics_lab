@@ -39,8 +39,8 @@ int main()
         }
         x=x+1;
     }
-    //getch();
-    scanf("%d", &x);
+    delay(5000);
+    closegraph();
     return 0;
 }
 
