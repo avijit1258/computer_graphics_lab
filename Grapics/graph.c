@@ -3,6 +3,8 @@
 //#include<iostream>
 //#include<conio.h>
 
+void print_axis(
+
 int main()
 {
     FILE *fp = fopen("Line_points.txt", "a");
@@ -10,7 +12,7 @@ int main()
     int gd = DETECT,gm ;
     initgraph(&gd,&gm,NULL);
    
-    int x0 = 50, y0 = 50, x1 = 525, y1 = 1000;
+    int x0 = 50, y0 = 350, x1 = 400, y1 = 250;
 
     int dx, dy, p, x, y;
 
@@ -38,8 +40,9 @@ int main()
             p=p+2*dy;
         }
         x=x+1;
+	delay(20);
     }
-    delay(5000);
+    delay(15000);
     closegraph();
     return 0;
 }
