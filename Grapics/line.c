@@ -107,12 +107,12 @@ int main()
 				    d=d+2*dy;
 				}
 				x++;
-				delay(10);
+				//delay(10);
 			    }
 
 	}else if(( 0  < m && 1 >=  m)&&(x0 > x1))
 	{
-		    t1 = x0;
+            t1 = x0;
             x0 = x1;
             x1 = t1;
 
@@ -152,7 +152,7 @@ int main()
 					    d=d+2*dy;
 					}
 					x++;
-					delay(10);
+					//delay(10);
 			    }
 
 	}else if(( 0  >= m && -1 <=  m)&&(x0 < x1))
@@ -194,7 +194,7 @@ int main()
 					    d=d+2*dy;
 					}
 					x++;
-					delay(10);
+					//delay(10);
 			    }
 
 	}else if(( 0  >= m && -1 <=  m)&&(x0 > x1))
@@ -243,7 +243,7 @@ int main()
 					    d=d+2*dy;
 					}
 					x++;
-					delay(10);
+					//delay(10);
 			    }
 
 	}else if( m > 1 && y0 < y1)
@@ -284,13 +284,13 @@ int main()
 					    d=d+2*dy;
 					}
 					y++;
-					delay(10);
+					//delay(10);
 			    }
 
 	}else if( m > 1 && y0 > y1)
 	{
 	
-		    t1 = x0;
+            t1 = x0;
             x0 = x1;
             x1 = t1;
 
@@ -332,7 +332,7 @@ int main()
 					    d=d+2*dy;
 					}
 					y++;
-					delay(10);
+					//delay(10);
 			    }
 
 	}else if( m < -1 && y0 > y1)
@@ -358,7 +358,7 @@ int main()
 					if(d>=0)
 					{
 					    
-					    set_pixel( -x, y );
+					    set_pixel( x, -y );
 					    
 					    fprintf(fp, "%d %d\n", x , y );
 					    //printf("%d %d\n",x, y );
@@ -368,19 +368,19 @@ int main()
 					else
 					{
 					    
-					    set_pixel(-x ,y);
+					    set_pixel(x ,-y);
 					    
 					    fprintf(fp, "%d %d\n",x,y);
 					    //printf("%d %d\n",x, y );
 					    d=d+2*dy;
 					}
 					y++;
-					delay(10);
+					//delay(10);
 			    }
 
 	}else if( m < -1 && y0 < y1)
 	{
-			t1 = x0;
+	    t1 = x0;
             x0 = x1;
             x1 = t1;
 
@@ -408,7 +408,7 @@ int main()
 					if(d>=0)
 					{
 					    
-					    set_pixel( -x, y );
+					    set_pixel( x, -y );
 					    
 					    fprintf(fp, "%d %d\n", x , y );
 					    //printf("%d %d\n",x, y );
@@ -418,14 +418,14 @@ int main()
 					else
 					{
 					    
-					    set_pixel(-x ,y);
+					    set_pixel(x ,-y);
 					    
 					    fprintf(fp, "%d %d\n",x,y);
 					    //printf("%d %d\n",x, y );
 					    d=d+2*dy;
 					}
 					y++;
-					delay(10);
+					//delay(10);
 			    }
 
 	}
