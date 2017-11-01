@@ -2,15 +2,15 @@
 
 ## Interactive UI 
 
-##cohen-shutherland line clipping algorithm
+## Cohen-shutherland line clipping algorithm
 
-# Circle Draw using "Bressenham's algorithm"
+## Circle Draw using "Bressenham's algorithm"
 
-# "Bressenham's algorithm" for Straight Line implemented for all possible values of slope , m .   
+## "Bressenham's algorithm" for Straight Line implemented for all possible values of slope , m .   
 
 
-windows there is an error in using graphics.h . There is a popular video to do so . everything
+### windows there is an error in using graphics.h . There is a popular video to do so . everything
 
-of the video works good . but libbgi.a file sized 123kb is not ok . use the libbgin.a file
+### of the video works good . but libbgi.a file sized 123kb is not ok . use the libbgin.a file
 
-in the repo.
+### in the repo.
