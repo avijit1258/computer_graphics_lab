@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1509001878 source:c:\users\aviji\onedrive\graphics\computer_graphics_lab\oop\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	"line.h"
+	"cohen-shutherland.h"
+	"circle.h"
+
+1508952685 c:\users\aviji\onedrive\graphics\computer_graphics_lab\oop\line.h
+
+1509003087 source:c:\users\aviji\onedrive\graphics\computer_graphics_lab\oop\line.cpp
+	"line.h"
+	<iostream>
+	<graphics.h>
+	"util.h"
+	<bits/stdc++.h>
+
+1508962584 source:c:\users\aviji\onedrive\graphics\computer_graphics_lab\oop\cohen-shutherland.cpp
+	<graphics.h>
+	<bits/stdc++.h>
+	"util.h"
+
+1508942427 c:\users\aviji\onedrive\graphics\computer_graphics_lab\oop\cohen-shutherland.h
+
+1509002601 source:c:\users\aviji\onedrive\graphics\computer_graphics_lab\oop\circle.cpp
+	<graphics.h>
+	<bits/stdc++.h>
+	"util.h"
+
+1509002115 c:\users\aviji\onedrive\graphics\computer_graphics_lab\oop\util.h
+
+1509002115 c:\users\aviji\onedrive\graphics\computer_graphics_lab\oop\circle.h
+
+1509002049 source:c:\users\aviji\onedrive\graphics\computer_graphics_lab\oop\util.cpp
+	<bits/stdc++.h>
+	<graphics.h>
+

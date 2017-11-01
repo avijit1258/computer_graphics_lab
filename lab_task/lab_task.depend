@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1507187458 source:c:\users\aviji\onedrive\graphics\computer_graphics_lab\lab_task\main.cpp
+	<graphics.h>
+	<bits/stdc++.h>
+
