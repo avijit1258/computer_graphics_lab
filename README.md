@@ -1,10 +1,12 @@
-# computer_graphics_lab
+# Computer Graphics Lab
 
-# Draw Circle using "Bressenham's algorithm"
+## Interactive UI 
+
+##cohen-shutherland line clipping algorithm
+
+# Circle Draw using "Bressenham's algorithm"
 
 # "Bressenham's algorithm" for Straight Line implemented for all possible values of slope , m .   
-
-
 
 
 windows there is an error in using graphics.h . There is a popular video to do so . everything
